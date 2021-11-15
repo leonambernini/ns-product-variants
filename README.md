@@ -1,5 +1,12 @@
 # ns-product-variants
-Recurso adicional para que o lojista tenha opção de exibir a primeira opção de variação preenchida e esconder a variação quando houver apenas 1 opção.
+Recurso adicional para que o lojista tenha opção via painel (personalização da loja) de manipular a exibição das variações, este recurso permite as seguintes opções de manipulação:
+
+- **Desmarcar opção padrão?**
+Campo de seleção responsável por desmarcar a opção padrão das variações quando houver mais de uma opção, adicionando um `<option value="">Selecione</option>`
+- **Desmarcar opção padrão para variação com apenas 1 opção?**
+Campo de seleção responsável por desmarcar a opção padrão das variações quando houver apenas uma opção, tornando obrigatório o cliente selecionar a opção, mesmo que única.
+- **Esconder variação com apenas 1 opção?**
+Campo de seleção responsável por esconder o select da variação quando houver apenas uma opção, esta opção só funciona quando a opção `Desmarcar opção padrão para variação com apenas 1 opção?` estiver **`DESMARCADA`**
 
 # Instalação via tema base
 
