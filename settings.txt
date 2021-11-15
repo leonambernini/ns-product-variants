@@ -488,7 +488,7 @@ Detalle de producto
 		description = Desmarcar opção padrão para variação com apenas 1 opção?
 	checkbox
 		name = lb_variants_hide_select_with_one_option
-		description = Esconder variação com apenas 1 opção?
+		description = Esconder variação com apenas 1 opção? <span class="d-block text-danger">Esta opção só funciona quando a opção <i><b>Desmarcar opção padrão para variação com apenas 1 opção?</b></i> estiver <b>DESMARCADA</b></span>
 
 	title
 		title = Formas de entrega
